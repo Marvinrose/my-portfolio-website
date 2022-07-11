@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #89023e;
+  --secondary-color: #30343f;
+  --font-family: ;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--primary-color);
+}
