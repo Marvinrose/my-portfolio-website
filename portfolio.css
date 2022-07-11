@@ -1,15 +1,36 @@
 :root {
   --primary-color: #89023e;
   --secondary-color: #30343f;
-  --font-family: ;
+  --bg-color: rgba(137, 2, 62, 0.1);
+  --font-family: "Playfair Display", serif;
+  --default-font: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+h1 {
+  font-size: 92px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  opacity: 0.8;
 }
 
 .button a {
   text-decoration: none;
   color: white;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 20px;
   text-decoration: none;
   text-transform: capitalize;
   background-color: var(--primary-color);
+  font-size: 18px;
+}
+.hero-section {
+  background-color: var(--bg-color);
+  margin: 160px 0;
 }
