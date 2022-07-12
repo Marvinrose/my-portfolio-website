@@ -106,6 +106,18 @@ h1 {
 .mail-link:hover {
   color: var(--primary-color);
 }
+.social-links a {
+  font-size: 18px;
+  margin: 0 3px;
+  color: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+.social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
 @media (max-width: 995px) {
   h1 {
     font-size: 60px;
