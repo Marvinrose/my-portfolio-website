@@ -69,6 +69,25 @@ h1 {
 .project-description {
   padding-left: 50px;
 }
-.primary-button{
+.primary-button {
   padding-left: 50px;
+}
+@media (max-width: 990px) {
+  h1 {
+    font-size: 75px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .project-description2 {
+    text-align: center;
+  }
+  .primary-button {
+    padding: 0;
+    text-align: center;
+  }
+  .primary-button2 {
+    text-align: center;
+  }
 }
