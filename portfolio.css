@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #89023e;
+  --primary-color: #6c63ff;
 
-  --bg-color: rgba(255, 58, 34, 0.1);
+  --bg-color: #f9f7fe;
   --font-family: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
@@ -72,9 +72,9 @@ h1 {
 .primary-button {
   padding-left: 50px;
 }
-@media (max-width: 990px) {
+@media (max-width: 995px) {
   h1 {
-    font-size: 75px;
+    font-size: 60px;
   }
   .project-description {
     padding: 0;
