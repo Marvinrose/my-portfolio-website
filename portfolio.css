@@ -1,6 +1,6 @@
 :root {
   --primary-color: #89023e;
-  --secondary-color: ;
+
   --bg-color: rgba(255, 58, 34, 0.1);
   --font-family: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
@@ -41,7 +41,7 @@ h1 {
 }
 .hero-section {
   background-color: var(--bg-color);
-  padding: 160px 0;
+  padding: 160px 20px;
   text-align: center;
 }
 .button-primary {
@@ -54,10 +54,21 @@ h1 {
   font-size: 18px;
   border: 2px solid var(--primary-color);
 }
+.button-primary:hover {
+  box-shadow: inset 0 0 0 3px var(--primary-color);
+  transition: all 200ms ease-in-out;
+  color: var(--primary-color);
+}
 .sub-header {
   font-size: 24px;
 }
 .container p {
   font-family: var(--default-font);
   line-height: 2;
+}
+.project-description {
+  padding-left: 50px;
+}
+.primary-button{
+  padding-left: 50px;
 }
