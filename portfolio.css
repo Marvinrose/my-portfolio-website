@@ -44,3 +44,20 @@ h1 {
   padding: 160px 0;
   text-align: center;
 }
+.button-primary {
+  text-decoration: none;
+  color: var(--primary-color);
+  border-radius: 4px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  border: 2px solid var(--primary-color);
+}
+.sub-header {
+  font-size: 24px;
+}
+.container p {
+  font-family: var(--default-font);
+  line-height: 2;
+}
