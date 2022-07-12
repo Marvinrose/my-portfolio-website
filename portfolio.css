@@ -90,4 +90,10 @@ h1 {
   .primary-button2 {
     text-align: center;
   }
+  .hero-section h2 {
+    font-size: 20px;
+  }
+  .hero-section p {
+    font-size: 30px;
+  }
 }
