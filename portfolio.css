@@ -144,7 +144,6 @@ h1 {
   margin-top: 20px;
 }
 .my-image {
-  width: 350px;
   height: 350px;
 }
 
@@ -177,6 +176,6 @@ h1 {
     font-size: 44px;
   }
   .about-section h2 {
-    line-height: 1;
+    line-height: 1.5;
   }
 }
