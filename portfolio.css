@@ -144,7 +144,8 @@ h1 {
   margin-top: 20px;
 }
 .my-image {
-  height: 350px;
+  height: 400px;
+  width: 350px;
 }
 
 @media (max-width: 995px) {
@@ -173,7 +174,7 @@ h1 {
     font-size: 30px;
   }
   .about-section h1 {
-    font-size: 44px;
+    font-size: 40px;
   }
   .about-section h2 {
     line-height: 1.5;
