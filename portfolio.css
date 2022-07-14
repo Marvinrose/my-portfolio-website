@@ -12,6 +12,9 @@
 .container span {
   color: var(--primary-color);
 }
+.active {
+  color: var(--primary-color);
+}
 h1,
 h2,
 h3,
