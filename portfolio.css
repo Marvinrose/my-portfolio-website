@@ -143,6 +143,10 @@ h1 {
 .about-description {
   margin-top: 20px;
 }
+.my-image {
+  width: 350px;
+  height: 400px;
+}
 
 @media (max-width: 995px) {
   h1 {
