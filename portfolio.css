@@ -5,6 +5,13 @@
   --font-family: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
+.navbar-toggler {
+  color: var(--primary-color);
+  background-color: var(--primary-color);
+}
+.container span {
+  color: var(--primary-color);
+}
 h1,
 h2,
 h3,
