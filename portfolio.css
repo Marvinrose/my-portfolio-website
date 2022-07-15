@@ -9,6 +9,9 @@
   color: var(--primary-color);
   background-color: var(--primary-color);
 }
+.navbar-brand {
+  font-family: var(--font-family);
+}
 .container span {
   color: var(--primary-color);
 }
