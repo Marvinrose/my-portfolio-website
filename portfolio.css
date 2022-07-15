@@ -11,6 +11,7 @@
 }
 .navbar-brand {
   font-family: var(--font-family);
+  font-weight: bold;
 }
 .container span {
   color: var(--primary-color);
