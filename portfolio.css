@@ -162,7 +162,7 @@ h1 {
 }
 .contact-paragraph {
   font-size: 20px;
-  line-height: 2;
+  line-height: 1.5;
 }
 h3 {
   color: var(--primary-color);
