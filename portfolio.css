@@ -1,7 +1,7 @@
 :root {
   --primary-color: #8a2be2;
 
-  --bg-color: #f9f7fe;
+  --bg-color: rgba(138, 43, 226, 0.1);
   --font-family: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
