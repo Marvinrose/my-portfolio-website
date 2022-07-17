@@ -1,6 +1,5 @@
 :root {
   --primary-color: #8a2be2;
-
   --bg-color: rgba(138, 43, 226, 0.1);
   --font-family: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
@@ -182,7 +181,19 @@ h3 {
   color: black;
   text-decoration: none;
 }
+.work-page {
+  margin-top: 80px;
+}
+.work-header {
+  font-size: 50px;
+}
+.work-section a:hover {
+  opacity: 0.5;
+}
 @media (max-width: 995px) {
+  .navbar-brand {
+    font-weight: 900;
+  }
   h1 {
     font-size: 60px;
   }
@@ -227,5 +238,11 @@ h3 {
   .contact-paragraph {
     font-size: 18px;
     line-height: 1.2;
+  }
+  .work-header {
+    font-size: 40px;
+  }
+  .work-page p {
+    line-height: 1.5;
   }
 }
