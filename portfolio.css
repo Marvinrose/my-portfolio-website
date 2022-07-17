@@ -12,10 +12,18 @@
   font-family: var(--font-family);
   font-weight: 900;
 }
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  border-radius: 4px;
+}
 .container span {
   color: var(--primary-color);
 }
-.active {
+.active-link {
   color: var(--primary-color);
 }
 h1,
